@@ -1,3 +1,57 @@
 .message {
+    background-color: greenyellow;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.invertedBorderRadius {
+    position: relative;
+    height: 65px;
+    width: 225px;
+    background-color: black;
+    border-radius: 25px 25px 25px 0;
+}
+
+.invertedBorderRadius::after {
+    content: "";
+    position: absolute;
+
+    background-color: black;
+    bottom: 0px;
+    height: 10px;
+    width: 25px;
+    border-bottom-left-radius: 25px;
+    box-shadow: -15px 0 0 0 #001f3f; /* This is where the magic happens! */
+}
+
+.img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+
+}
+
+.style {
+    background: #007E3E; /* Цвет фона */
+    color: #fff; /* Цвет текста */
+    padding: 10px; /* Поля вокруг текста */
+    border-radius: 5px; /* Для современных браузеров */
+}
+
+.nameText {
+    text-indent: 10px;
+    color: blueviolet;
+}
+
+.messageText {
+    color: greenyellow;
+    text-indent: 10px;
+}
+
+.timeText {
+    text-indent: 180px;
+    color: green;
+    font-size: 11px;
 }
