@@ -13,18 +13,18 @@ function HW1() {
             <hr/>
             homeworks 1
 
-            {/*should work (должно работать)*//////////////}
+            should work (должно работать)
 
-            {/*<Message*/}
-            {/*    avatar={messageData.avatar}*/}
-            {/*    name={messageData.name}*/}
-            {/*    message={messageData.message}*/}
-            {/*    time={messageData.time}*/}
-            {/*/>*/}
+            <Message
+                avatar={messageData.avatar}
+                name={messageData.name}
+                message={messageData.message}
+                time={messageData.time}
+            />
 
             <hr/>
-            {/*для личного творчества, могу проверить*/}
-            {/*<AlternativeMessage/>*/}
+            для личного творчества, могу проверить
+            <AlternativeMessage/>
             <hr/>
         </div>
     )
