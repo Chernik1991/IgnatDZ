@@ -3,16 +3,16 @@ import Affair from './Affair'
 import {AffairType} from './HW2'
 
 type AffairsPropsType = { // need to fix any
-    data: any
-    setFilter: any
-    deleteAffairCallback: any
+    data: AffairType
+    setFilter: Array<AffairType>
+    deleteAffairCallback: number
 }
 
 function Affairs(props: AffairsPropsType) {
-    const mappedAffairs = props.data.map((a: AffairType) => (
+    const mappedAffairs = props.data.map((m: AffairType) => (
         <Affair // should work
-            key={a._id} // кеи ОБЯЗАТЕЛЬНЫ в 99% - так что лучше их писать всегда при создании компонент в мапе
-            affair={a}
+            key={m._id} // кеи ОБЯЗАТЕЛЬНЫ в 99% - так что лучше их писать всегда при создании компонент в мапе
+            affair={m.name}
             deleteAffairCallback={props.deleteAffairCallback}
         />
     ))
