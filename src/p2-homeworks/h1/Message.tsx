@@ -11,15 +11,20 @@ export type messageDataType = {
 function Message(props: messageDataType) {
     return (
         <div className={s.message}>
-            <div>
+            {/*<div>*/}
                 <img src={props.avatar} alt={'avatar'} className={s.img}/>
-            </div>
+            {/*//avatar*/}
+            {/*</div>*/}
+            <div className={s.angle}/>
+            {/*//ugolok*/}
+
             <div className={s.invertedBorderRadius}>
+                {/*// blok s textom*/}
                 <div className={s.nameText}>{props.name}</div>
-                <div>
+                {/*<div>*/}
                     <div className={s.messageText}>{props.message}</div>
                     <div className={s.timeText}>{props.time}</div>
-                </div>
+                {/*</div>*/}
             </div>
 
             {/*<table>*/}
