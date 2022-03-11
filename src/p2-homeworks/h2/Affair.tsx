@@ -1,21 +1,22 @@
 import React from 'react'
+import {AffairType} from './HW2';
 
 type AffairPropsType = {
     // key не нужно типизировать
-    affair: string // need to fix any
-    deleteAffairCallback: ()=>void // need to fix any
+    affair: AffairType // need to fix any
+    deleteAffairCallback: (id:number)=>void // need to fix any
 }
 
 function Affair(props: AffairPropsType) {
     const deleteCallback = () => {
-        props.deleteAffairCallback()
+        props.deleteAffairCallback(props.affair._id)
     }// need to fix
 
     return (
         <div>
             // show some text
 
-            <button onClick={deleteCallback}>{props.affair}</button>
+            <button onClick={deleteCallback}>x</button>
         </div>
     )
 }
