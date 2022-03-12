@@ -1,10 +1,10 @@
 import React from 'react'
 import {AffairType} from './HW2';
-
+import s from './Affairs.module.css'
 type AffairPropsType = {
     // key не нужно типизировать
     affair: AffairType // need to fix any
-    deleteAffairCallback: (id:number)=>void // need to fix any
+    deleteAffairCallback: (id: number) => void // need to fix any
 }
 
 function Affair(props: AffairPropsType) {
@@ -12,11 +12,15 @@ function Affair(props: AffairPropsType) {
         props.deleteAffairCallback(props.affair._id)
     }// need to fix
 
-    return (
-        <div>
-            // show some text
+    const priorityClass = s.item + ' ' + s[props.affair.priority]
 
-            <button onClick={deleteCallback}>x</button>
+    return (
+        <div className={s.affair}>
+            <div className={s.item}>{props.affair.name}</div>
+            <div className={priorityClass}>[{props.affair.priority}]</div>
+            {/*show some text*/}
+
+            <button onClick={deleteCallback} className={s.item+' '+s.button}>x</button>
         </div>
     )
 }
