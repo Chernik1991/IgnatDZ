@@ -1,23 +1,22 @@
 {
   "files": {
-    "main.css": "/simple-react-homeworks/static/css/main.b2b0e57a.chunk.css",
-    "main.js": "/simple-react-homeworks/static/js/main.0420b0dd.chunk.js",
-    "main.js.map": "/simple-react-homeworks/static/js/main.0420b0dd.chunk.js.map",
-    "runtime-main.js": "/simple-react-homeworks/static/js/runtime-main.f59815ab.js",
-    "runtime-main.js.map": "/simple-react-homeworks/static/js/runtime-main.f59815ab.js.map",
-    "static/js/2.6a65bedd.chunk.js": "/simple-react-homeworks/static/js/2.6a65bedd.chunk.js",
-    "static/js/2.6a65bedd.chunk.js.map": "/simple-react-homeworks/static/js/2.6a65bedd.chunk.js.map",
-    "index.html": "/simple-react-homeworks/index.html",
-    "precache-manifest.96c911fb5723cc75f05a7b15dfd9fbc3.js": "/simple-react-homeworks/precache-manifest.96c911fb5723cc75f05a7b15dfd9fbc3.js",
-    "service-worker.js": "/simple-react-homeworks/service-worker.js",
-    "static/css/main.b2b0e57a.chunk.css.map": "/simple-react-homeworks/static/css/main.b2b0e57a.chunk.css.map",
-    "static/js/2.6a65bedd.chunk.js.LICENSE.txt": "/simple-react-homeworks/static/js/2.6a65bedd.chunk.js.LICENSE.txt",
-    "static/media/App.module.css": "/simple-react-homeworks/static/media/cosmos.7e6e1cf7.svg"
+    "main.css": "/IgnatDZ/static/css/main.1b8dc16d.chunk.css",
+    "main.js": "/IgnatDZ/static/js/main.6470bfe0.chunk.js",
+    "main.js.map": "/IgnatDZ/static/js/main.6470bfe0.chunk.js.map",
+    "runtime-main.js": "/IgnatDZ/static/js/runtime-main.34b4f999.js",
+    "runtime-main.js.map": "/IgnatDZ/static/js/runtime-main.34b4f999.js.map",
+    "static/js/2.c6554d15.chunk.js": "/IgnatDZ/static/js/2.c6554d15.chunk.js",
+    "static/js/2.c6554d15.chunk.js.map": "/IgnatDZ/static/js/2.c6554d15.chunk.js.map",
+    "index.html": "/IgnatDZ/index.html",
+    "precache-manifest.8998469d3bfd03d37ad59421f6f09b04.js": "/IgnatDZ/precache-manifest.8998469d3bfd03d37ad59421f6f09b04.js",
+    "service-worker.js": "/IgnatDZ/service-worker.js",
+    "static/css/main.1b8dc16d.chunk.css.map": "/IgnatDZ/static/css/main.1b8dc16d.chunk.css.map",
+    "static/js/2.c6554d15.chunk.js.LICENSE.txt": "/IgnatDZ/static/js/2.c6554d15.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.f59815ab.js",
-    "static/js/2.6a65bedd.chunk.js",
-    "static/css/main.b2b0e57a.chunk.css",
-    "static/js/main.0420b0dd.chunk.js"
+    "static/js/runtime-main.34b4f999.js",
+    "static/js/2.c6554d15.chunk.js",
+    "static/css/main.1b8dc16d.chunk.css",
+    "static/js/main.6470bfe0.chunk.js"
   ]
 }
