@@ -3,7 +3,7 @@ import Affairs from './Affairs'
 import s from './Affairs.module.css';
 
 // types
-export type AffairPriorityType = 'high'|'low'|'middle'
+export type AffairPriorityType = 'high' | 'low' | 'middle'
 export type AffairType = {
     _id: number
     name: string
@@ -23,10 +23,10 @@ const defaultAffairs: Array<AffairType> = [ // need to fix any
 // pure helper functions
 export const filterAffairs = (affairs: Array<AffairType>, filter: FilterType): Array<AffairType> => { // need to fix any
     if (filter === 'all') return affairs
-    else return [...affairs.filter(el=>el.priority===filter)]// need to fix
+    else return [...affairs.filter(el => el.priority === filter)]// need to fix
 }
 export const deleteAffair = (affairs: Array<AffairType>, _id: number): Array<AffairType> => { // need to fix any
-    return [...affairs.filter(el=>el._id!==_id)]
+    return [...affairs.filter(el => el._id !== _id)]
 }
 
 function HW2() {

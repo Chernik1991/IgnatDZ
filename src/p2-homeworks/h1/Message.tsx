@@ -12,7 +12,7 @@ function Message(props: messageDataType) {
     return (
         <div className={s.message}>
             {/*<div>*/}
-                <img src={props.avatar} alt={'avatar'} className={s.img}/>
+            <img src={props.avatar} alt={'avatar'} className={s.img}/>
             {/*//avatar*/}
             {/*</div>*/}
             <div className={s.angle}/>
@@ -22,8 +22,8 @@ function Message(props: messageDataType) {
                 {/*// blok s textom*/}
                 <div className={s.nameText}>{props.name}</div>
                 {/*<div>*/}
-                    <div className={s.messageText}>{props.message}</div>
-                    <div className={s.timeText}>{props.time}</div>
+                <div className={s.messageText}>{props.message}</div>
+                <div className={s.timeText}>{props.time}</div>
                 {/*</div>*/}
             </div>
 
