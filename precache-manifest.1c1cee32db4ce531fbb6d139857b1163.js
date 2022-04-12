@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "69f4a06dfe7f186c9bcd4777b3ca48ec",
+    "revision": "8ae97086311a978fd76be3111732cfaa",
     "url": "/IgnatDZ/index.html"
   },
   {
-    "revision": "a31cd360f4d4c0738da7",
-    "url": "/IgnatDZ/static/css/main.1b8dc16d.chunk.css"
+    "revision": "9888f0b96fd224b9b689",
+    "url": "/IgnatDZ/static/css/main.191ee2e5.chunk.css"
   },
   {
     "revision": "a33e359f6aabe1f26a90",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/IgnatDZ/static/js/2.c6554d15.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "a31cd360f4d4c0738da7",
-    "url": "/IgnatDZ/static/js/main.6470bfe0.chunk.js"
+    "revision": "9888f0b96fd224b9b689",
+    "url": "/IgnatDZ/static/js/main.7becd81d.chunk.js"
   },
   {
     "revision": "e7937b0cd6981483e16a",
