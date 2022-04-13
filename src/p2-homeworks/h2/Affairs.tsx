@@ -34,16 +34,16 @@ function Affairs(props: AffairsPropsType) {
     const chAll = s.button + ' ' + (props.filter === 'all' ? s.active : '')
     const chHigh = s.button + ' ' + (props.filter === 'high' ? s.active : '')
     const chMiddle = s.button + ' ' + (props.filter === 'middle' ? s.active : '')
-    const chLow = s.button + ' y' + (props.filter === 'low' ? s.active : '')
+    const chLow = s.button + ' ' + (props.filter === 'low' ? s.active : '')
     return (
         <div style={s}>
 
             {mappedAffairs}
 
-            <button onClick={setAll}>All</button>
-            <button onClick={setHigh}>High</button>
-            <button onClick={setMiddle}>Middle</button>
-            <button onClick={setLow}>Low</button>
+            <button onClick={setAll} className={chAll}>All</button>
+            <button onClick={setHigh} className={chHigh}>High</button>
+            <button onClick={setMiddle} className={chMiddle}>Middle</button>
+            <button onClick={setLow} className={chLow}>Low</button>
         </div>
     )
 }
