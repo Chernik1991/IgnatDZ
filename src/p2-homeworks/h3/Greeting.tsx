@@ -1,5 +1,4 @@
 import React, {ChangeEvent} from 'react'
-import s from './Greeting.module.css'
 
 type GreetingPropsType = {
     name: string // need to fix any
