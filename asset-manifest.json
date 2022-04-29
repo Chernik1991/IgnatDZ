@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/IgnatDZ/static/css/main.6f7b5cb4.chunk.css",
-    "main.js": "/IgnatDZ/static/js/main.070f683b.chunk.js",
-    "main.js.map": "/IgnatDZ/static/js/main.070f683b.chunk.js.map",
+    "main.css": "/IgnatDZ/static/css/main.28047654.chunk.css",
+    "main.js": "/IgnatDZ/static/js/main.e4448a95.chunk.js",
+    "main.js.map": "/IgnatDZ/static/js/main.e4448a95.chunk.js.map",
     "runtime-main.js": "/IgnatDZ/static/js/runtime-main.34b4f999.js",
     "runtime-main.js.map": "/IgnatDZ/static/js/runtime-main.34b4f999.js.map",
-    "static/js/2.e45fc2ab.chunk.js": "/IgnatDZ/static/js/2.e45fc2ab.chunk.js",
-    "static/js/2.e45fc2ab.chunk.js.map": "/IgnatDZ/static/js/2.e45fc2ab.chunk.js.map",
+    "static/js/2.5ceb0ed4.chunk.js": "/IgnatDZ/static/js/2.5ceb0ed4.chunk.js",
+    "static/js/2.5ceb0ed4.chunk.js.map": "/IgnatDZ/static/js/2.5ceb0ed4.chunk.js.map",
     "index.html": "/IgnatDZ/index.html",
-    "precache-manifest.19add45292210b4c80cf357bdfff2359.js": "/IgnatDZ/precache-manifest.19add45292210b4c80cf357bdfff2359.js",
+    "precache-manifest.74124b888ce234d879f147714751a94f.js": "/IgnatDZ/precache-manifest.74124b888ce234d879f147714751a94f.js",
     "service-worker.js": "/IgnatDZ/service-worker.js",
-    "static/css/main.6f7b5cb4.chunk.css.map": "/IgnatDZ/static/css/main.6f7b5cb4.chunk.css.map",
-    "static/js/2.e45fc2ab.chunk.js.LICENSE.txt": "/IgnatDZ/static/js/2.e45fc2ab.chunk.js.LICENSE.txt"
+    "static/css/main.28047654.chunk.css.map": "/IgnatDZ/static/css/main.28047654.chunk.css.map",
+    "static/js/2.5ceb0ed4.chunk.js.LICENSE.txt": "/IgnatDZ/static/js/2.5ceb0ed4.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.34b4f999.js",
-    "static/js/2.e45fc2ab.chunk.js",
-    "static/css/main.6f7b5cb4.chunk.css",
-    "static/js/main.070f683b.chunk.js"
+    "static/js/2.5ceb0ed4.chunk.js",
+    "static/css/main.28047654.chunk.css",
+    "static/js/main.e4448a95.chunk.js"
   ]
 }
