@@ -15,15 +15,15 @@
 .block {
     width: 21px;
     height: 21px;
-    margin: 10px;
+    margin: 20px;
     background: #99ff99;
 }
 
 .header {
     display: flex;
-    width: 280px;
+    width: 400px;
     transition-duration: 500ms;
-    transform: translate(-220px);
+    transform: translate(-270px);
 }
 
 .header:hover {

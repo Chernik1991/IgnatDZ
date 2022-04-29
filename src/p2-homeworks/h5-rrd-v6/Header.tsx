@@ -1,18 +1,18 @@
 import React from 'react'
 import {NavLink} from 'react-router-dom';
 import {PATH} from './Pages';
-import './Header.css'
+import s from './Header.module.css'
 
 function Header() {
     return (
-        <div className={'header'}>
+        <div className={s.header}>
             <NavLink to={PATH.PRE_JUNIOR}
-                     className={(isActive) => isActive ? 'lk' : 'active'}>pre-junior</NavLink>
+                     className={(isActive) => isActive ? s.lk : s.active}>pre-junior</NavLink>
             <NavLink to={PATH.JUNIOR}
-                     className={(isActive) => isActive ? 'lk' : 'active'}>junior</NavLink>
+                     className={(isActive) => isActive ? s.lk : s.active}>junior</NavLink>
             <NavLink to={PATH.JUNIOR_PLUS}
-                     className={(isActive) => isActive ? 'lk' : 'active'}>junior+</NavLink>
-            <div className={'block'}/>
+                     className={(isActive) => isActive ? s.lk : s.active}>junior+</NavLink>
+            <div className={s.block}>{'->'}</div>
         </div>
     )
 }
